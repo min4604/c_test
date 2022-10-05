@@ -5,12 +5,13 @@
 #include <time.h>
 
 #define REPEAT 1
+
 using namespace std;
 
 int main() {
     srand(time(NULL));
     cout << "重複 " << REPEAT << " 次取平均" << "\n";
-    for (int k = 1; k <31 ; k++)
+    for (int k = 15; k <31 ; k++)
     {
         
         double addTotalSpendTime = 0;
