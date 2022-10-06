@@ -16,7 +16,15 @@
       "run": "./a.out 1",
       "comparison": "included",
       "timeout": 1200,
-      "points": 60
+      "points": 30
+    },
+    {
+      "name": "try 2",
+      "setup": "make a.out",
+      "run": "./a.out 10",
+      "comparison": "included",
+      "timeout": 1200,
+      "points": 30
     }
    
   ]
