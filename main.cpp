@@ -1,6 +1,3 @@
-import pandas as pd
 import random
-data=pd.read_csv('data.csv')
-data["Last Name"] = data["Full Name"].str.split().str[-1]
-students_lin = data[data["Last Name"]=="Lin"]
-print(students_lin['Full Name'].values[random.randint(0,len(students_lin)-1)])
+for _ in range(13):
+  print( (chr(random.randint(65,90)+(32*random.randint(0,1))),(random.choice("!@#$%&"),random.randint(48,57))[random.randint(0,1)])[random.randint(0,1)] ,end="")
